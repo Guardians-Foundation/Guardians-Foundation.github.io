@@ -1,0 +1,7 @@
+:root {
+  --logo-font: sans-serif;
+}
+
+.logo-text {
+    font-family: var(--logo-font);
+}
