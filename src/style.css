@@ -4,9 +4,13 @@
   --logo-font: 'Open Sans', sans-serif;
   --thinnest: 50;
   --widest-letter-spacing: 0.32rem;
+
+  --light-grey: #999;
+  --black: #333;
 }
 
 html {
+  color: var(--black);
   font-size: var(--font-size);
 }
 
@@ -16,6 +20,7 @@ h1 {
 }
 
 .logo-text {
+  color: var(--light-grey);
   font-family: var(--logo-font);
   letter-spacing: var(--widest-letter-spacing);
 }
