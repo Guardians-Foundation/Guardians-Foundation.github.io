@@ -1,6 +1,9 @@
 :root {
   --font-size: 20px;
+  --biggest: 2.7em;
   --logo-font: 'Open Sans', sans-serif;
+  --thinnest: 50;
+  --widest-letter-spacing: 0.32rem;
 }
 
 html {
@@ -8,12 +11,13 @@ html {
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 100;
+  font-size: var(---biggest);
+  font-weight: var(--thinnest);
 }
 
 .logo-text {
   font-family: var(--logo-font);
+  letter-spacing: var(--widest-letter-spacing);
 }
 
 .hero {
