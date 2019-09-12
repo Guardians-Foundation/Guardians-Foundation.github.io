@@ -6,12 +6,15 @@
   --widest-letter-spacing: 0.32rem;
 
   --light-grey: #999;
-  --black: #333;
+  --black: #444;
 }
 
 html {
   color: var(--black);
   font-size: var(--font-size);
+}
+body {
+  margin: 0;
 }
 
 h1 {
@@ -29,4 +32,5 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20vh;
 }
