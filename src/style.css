@@ -1,17 +1,20 @@
 :root {
-  --font-size: 20px;
+  --font-sz: 20px;
+  --bigger: 1.1rem;
   --biggest: 2.7rem;
+  --font: sans-serif;
   --logo-font: 'Open Sans', sans-serif;
   --thinnest: 50;
   --widest-letter-spacing: 0.32rem;
 
   --light-grey: #999;
-  --black: #444;
+  --dark-grey: #444;
 }
 
 html {
-  color: var(--black);
-  font-size: var(--font-size);
+  color: var(--dark-grey);
+  font-family: var(--font);
+  font-size: var(--font-sz);
 }
 body {
   margin: 0;
@@ -33,4 +36,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 20vh;
+}
+.hero-text {
+  font-size: var(--bigger);
 }
