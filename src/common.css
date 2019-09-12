@@ -1,7 +1,7 @@
 :root {
   --size: 20px;
-  --bigger: 1.1rem;
-  --biggest: 2.7rem;
+  --bigger: 1.4rem;
+  --big: 2.7rem;
   --font: sans-serif;
   --logo-font: 'Open Sans', sans-serif;
   --thinnest: 50;
@@ -29,6 +29,6 @@ footer {
 }
 
 h1 {
-  font-size: var(--biggest);
+  font-size: var(--big);
   font-weight: var(--thinnest);
 }
