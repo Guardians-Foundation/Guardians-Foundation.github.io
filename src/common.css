@@ -24,6 +24,9 @@ body {
   font-size: var(--size);
   margin: 0 var(--spacing-sm);
 }
+footer {
+  text-align: center;
+}
 
 h1 {
   font-size: var(--biggest);
