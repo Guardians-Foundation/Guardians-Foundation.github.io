@@ -1,11 +1,13 @@
 :root {
-  --font-sz: 20px;
+  --size: 20px;
   --bigger: 1.1rem;
   --biggest: 2.7rem;
   --font: sans-serif;
   --logo-font: 'Open Sans', sans-serif;
   --thinnest: 50;
   --widest-letter-spacing: 0.32rem;
+
+  --spacing-sm: 0.3rem;
 
   --light-grey: #999;
   --dark-grey: #444;
@@ -14,7 +16,8 @@
 html {
   color: var(--dark-grey);
   font-family: var(--font);
-  font-size: var(--font-sz);
+  font-size: var(--size);
+  margin: 0 var(--spacing-sm);
 }
 body {
   margin: 0;
