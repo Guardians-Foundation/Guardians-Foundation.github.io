@@ -5,7 +5,8 @@
   --font: sans-serif;
   --logo-font: 'Open Sans', sans-serif;
   --thinnest: 50;
-  --widest-letter-spacing: 0.32rem;
+  --letter-spacing-xl: 0.32rem;
+  --line-height-bigger: 31px;
 
   --spacing-sm: 0.3rem;
 
