@@ -1,7 +1,7 @@
 :root {
   --size: 20px;
   --big: 1.45rem;
-  --biggest: 2.7rem;
+  --biggest: 2.8rem;
   --font: sans-serif;
   --logo-font: 'Open Sans', sans-serif;
   --thinnest: 50;
@@ -9,8 +9,8 @@
 
   --spacing-sm: 0.3rem;
 
-  --light-grey: #999;
-  --dark-grey: #444;
+  --light-grey: #aaa;
+  --dark-grey: #555;
 }
 
 body {
