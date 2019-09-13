@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "0.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/AlexandrNil/guardians-foundation-website.git"
+  },
+  "author": "nil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/AlexandrNil/guardians-foundation-website/issues"
+  },
+  "homepage": "https://gitlab.com/AlexandrNil/guardians-foundation-website#readme"
+}
