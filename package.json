@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://gitlab.com/AlexandrNil/guardians-foundation-website/issues"
   },
-  "homepage": "https://gitlab.com/AlexandrNil/guardians-foundation-website#readme"
+  "homepage": "https://gitlab.com/AlexandrNil/guardians-foundation-website#readme",
+  "devDependencies": {
+    "webpack": ">=4.40.2 <5.0.0"
+  }
 }
