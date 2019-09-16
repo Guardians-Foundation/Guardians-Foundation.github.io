@@ -16,5 +16,7 @@
     "url": "https://gitlab.com/AlexandrNil/guardians-foundation-website/issues"
   },
   "homepage": "https://gitlab.com/AlexandrNil/guardians-foundation-website#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "postcss-cli": ">=6.1.3 <7.0.0"
+  }
 }
