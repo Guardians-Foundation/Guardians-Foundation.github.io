@@ -8,7 +8,7 @@ cache:
 
 pages:
   script:
-    - npm install
+    - npm ci
     - npm run build
     - mkdir public
     - mv dist/* public
