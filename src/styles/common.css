@@ -30,6 +30,9 @@ footer {
   text-align: center;
 }
 
+a {
+  color: var(--dark-grey);
+}
 h1 {
   font-size: var(--biggest);
   font-weight: var(--thinnest);
