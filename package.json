@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "npx postcss --use postcss-preset-env -d dist/styles src/styles/*.css && cp ./src/*.html ./dist/",
+    "build": "npx postcss --use postcss-preset-env cssnano -d dist/styles src/styles/*.css && cp ./src/*.html ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "> 2%"
   ],
   "devDependencies": {
+    "cssnano": ">=4.1.10 <5.0.0",
     "postcss-cli": ">=6.1.3 <7.0.0",
     "postcss-preset-env": ">= 6.7.0 <7.0.0"
   }
