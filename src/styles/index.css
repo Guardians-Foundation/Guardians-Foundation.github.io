@@ -1,3 +1,7 @@
+section {
+  text-align: center;
+}
+
 .logo-text {
   color: var(--light-grey);
   font-family: var(--logo-font);
@@ -9,10 +13,11 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 20vmin;
+  margin-top: 22vmin;
+  min-height: 80vh;
 }
 .hero-text {
   font-size: var(--big);
   line-height: var(--line-height-bigger);
-  margin-top: 3.6rem;
+  margin-top: 4rem;
 }
